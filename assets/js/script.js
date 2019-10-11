@@ -66,14 +66,15 @@ const aiMove = (value) => {
 	console.log(ai.aiPos)
 	ai.aiPos = aiPosition
 
-	result()
-
 	if(ai.aiPos >= 1000 || player.playerPos >= 1000) {
 		return true
 	}
 	else {
 		setTimeout(()=> aiMove(value), 500)
 	}
+
+	result()
+
 }
 
 
