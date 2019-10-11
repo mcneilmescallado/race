@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+height: 100hv;
+background-size: cover;
+/*background-position: center;*/
+background-repeat: no-repeat;
+background-image: url("../images/beach3.jpg")
+
+}
+
+.heading {
+	margin-top: 300px;
+	text-align: center;
+}
+
+div 
+
+button {
+	margin-top: 10px;
+	width: 15%;
+	/*margin-left: 4%*/
+}
+
+.character {
+	position: absolute;
+	width: 100px;
+}
+
+#ai {
+	top: 500px;
+}
+
+#player	{
+	top: 650px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
