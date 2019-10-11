@@ -47,7 +47,6 @@ $("#start2").click(function(){
 
 // move the AI hard
 $("#start3").click(function(){
-	$("#ai").html("../images/bugs/gif")
 	aiMove(100)
 }) 
 
